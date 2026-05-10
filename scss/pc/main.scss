@@ -1,6 +1,7 @@
 // Go up one level to find variables.scss in the /scss/ folder
 @import '../variables.scss';
-
+@import './property/detail.scss';
+@import './property/property.scss';
 // Look inside the current /pc/ folder for the /homepage/ directory
 @import './homepage/homepage.scss';
 
